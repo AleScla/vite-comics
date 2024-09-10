@@ -68,17 +68,27 @@ export default {
   </header>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
   header{
-    div{
-      ul{
-        li{
-          a{
-            color:#1C1C1C;
-            font-weight:bold;
+    
+    .container{
+      .row{
+        div.col-2{
+          img{
+            width:80px;
+          }
+        }
+        div.col-10{
+        ul{
+          li{
+            a{
+              color:#1C1C1C;
+              font-weight:bold;
+            }
           }
         }
       }
+    }
     }
   }
 </style>
