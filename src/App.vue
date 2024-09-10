@@ -1,11 +1,10 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-
 export default {
-  data() {
-    return {
-      count: 0
-    }
+  data(){
+    return{
+
+    };
   },
   components:{
     AppHeader
@@ -15,12 +14,11 @@ export default {
 </script>
 
 <template>
-  <AppHeader/>
-  <div>
-    <button @click="count++">Click me {{ count }}</button>
-  </div>
+  <main>
+    
+  </main>
 </template>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  
 </style>
