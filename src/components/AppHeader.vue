@@ -70,7 +70,6 @@ export default {
 
 <style lang="scss" scoped>
   header{
-    
     .container{
       .row{
         div.col-2{
