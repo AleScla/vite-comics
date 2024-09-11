@@ -1,5 +1,6 @@
 <script>
 import SingleCard from './SingleCard.vue';
+import AppJumbo from './AppJumbo.vue';
     export default {
         data(){
             return{
@@ -102,19 +103,24 @@ import SingleCard from './SingleCard.vue';
             }
         },
         components: {
-            SingleCard
+            SingleCard,
+            AppJumbo
         }
     }
 </script>
 
 <template>
     <main>
+        <AppJumbo/>
         <section class="main-content">
             <div class="container">
                 <div class="row">
                     <SingleCard v-for="(card, index) in cards" 
                     :key="index"
                     :card="card"/>
+                </div>
+                <div class="text-center text-white">
+                    <span class="my-btn bg-primary d-inline-block">LOAD MORE</span>
                 </div>
             </div>
         </section>
@@ -146,6 +152,13 @@ import SingleCard from './SingleCard.vue';
                     div.col{
                         color:white;
                     }
+                }
+                div{
+                    .my-btn{
+                        padding:10px 40px;
+                        margin-bottom:20px;
+                        cursor:pointer;
+                }
                 }
             }
         }
