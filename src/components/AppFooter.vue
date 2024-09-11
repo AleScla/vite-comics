@@ -38,9 +38,7 @@ export default {
             '/img/footer-pinterest.png',
             '/img/footer-twitter.png',
             '/img/footer-youtube.png',
-
         ]
-
     };
   },
 }
@@ -94,7 +92,7 @@ export default {
                         </ul>
                     </div>
                     <div class="col-6 py-4 logo-side">
-                        <img src="/public/img/dc-logo-bg.png" alt="BG">
+                        <img src="/img/dc-logo-bg.png" alt="BG">
                     </div>
                 </div>
             </div>

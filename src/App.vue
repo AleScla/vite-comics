@@ -5,7 +5,7 @@ import AppFooter from './components/AppFooter.vue';
 export default {
   data(){
     return{
-
+      
     };
   },
   components:{
@@ -13,7 +13,6 @@ export default {
     AppMain,
     AppFooter,
   }
-  
 }
 </script>
 
